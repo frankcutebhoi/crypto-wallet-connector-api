@@ -11,9 +11,7 @@ var https = require('https');
 var server = require('http').createServer(app);
 var io = io.listen(server);
 
-app.get('/', function(req, res) {
-  res.sendfile('./public/index.html');
-});
+app.get('/', function(req, res) 
 server.listen(80);
 
 /**
