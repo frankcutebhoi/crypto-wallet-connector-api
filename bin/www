@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('crypto-wallet-connector-api:server');
 var http = require('http');
 var https = require('https');
-var app = express()
+var app = express('express')
   , server = require('http').createServer(app)
   , io = io.listen(server);
 
