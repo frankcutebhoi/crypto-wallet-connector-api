@@ -2,6 +2,7 @@
   "name": "crypto-wallet-connector-api",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://crypto-wallet-connector-api.onrender.com",
   "scripts": {
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www"
