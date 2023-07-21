@@ -2,8 +2,8 @@
   "name": "crypto-wallet-connector-api",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://crypto-wallet-connector-api.onrender.com",
   "scripts": {
+    "build": "webpack --config webpack.dev.js",
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www"
   },
@@ -13,10 +13,12 @@
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
     "http-errors": "~1.6.3",
-    "pug": "^0.0.0",
-    "mongodb": "^4.6.0",
+    "jade": "^0.29.0",
+    "mongodb": "^5.7.0",
     "mongoose": "^6.9.0",
     "morgan": "~1.9.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2",
+    "yarn": "^1.22.19"
   }
 }
