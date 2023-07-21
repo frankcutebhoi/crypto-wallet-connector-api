@@ -11,8 +11,6 @@ var https = require('https');
 var server = require('http').createServer(app);
 var io = io.listen(server);
 
-app.get('/', function(req, res) 
-server.listen(80);
 
 /**
  * Get port from environment and store in Express.
@@ -23,6 +21,8 @@ server.listen(80);
  */
 
 var server = http.createServer(app);
+app.get('/', function(req, res);
+server.listen(80);
 
 /**
  * Listen on provided port, on all network interfaces.
