@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.dev.js",
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www"
   },
